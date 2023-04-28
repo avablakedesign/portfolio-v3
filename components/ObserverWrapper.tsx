@@ -7,7 +7,7 @@ export default (props:any) => {
             const Observer = new IntersectionObserver(
                 (entries:any, observer:any) => {
                     if (entries[0].isIntersecting) {
-                        props.callback()
+                        props.callback(entries, observer);
                         setObserved(true)
                     }
                 },

@@ -19,6 +19,12 @@ body {
 body {
   color: var(--font_color);
   background-color: var(--bg_color);
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -30,10 +36,12 @@ a {
   width: 100vw;
   min-height: 100vh;
   border: 2px solid magenta;
+  margin-bottom: 5rem;
 }
 .section-one {
   opacity: 0;
   height: 100%;
+  overflow: hidden;
 }
 .section-two {
   opacity: 0;
@@ -325,4 +333,17 @@ a {
   overflow: hidden;
   transform: rotate(-15deg);
   animation: glitch-smiley 1s steps(3, end) infinite;
+}
+
+.project-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.25;
+  overflow: hidden;
+  transform: rotate(-7.5deg);
+  overflow: hidden;
 }
