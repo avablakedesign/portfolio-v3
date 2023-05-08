@@ -1,0 +1,32 @@
+.splash-header {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    height: 100vh;
+    &-content{
+        margin-top:28vh;
+        margin-bottom:2.25rem;
+    }
+}
+
+.splash-header-flow {
+    height: 25rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &-vert {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    & *{
+        display:block;
+        & svg {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+}

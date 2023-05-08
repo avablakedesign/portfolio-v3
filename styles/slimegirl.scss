@@ -1,0 +1,9 @@
+.slimeGirl {
+    width: 100vw;
+    height: 80vh;
+
+    & canvas {
+        width: 100%;
+        height: 100%;
+    }
+}
