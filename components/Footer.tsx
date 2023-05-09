@@ -9,12 +9,12 @@ export default () => {
             </div>
             <div className = "footer-socials">
                 <div>
-                    <a href="">
+                    <a href="https://github.com/evakdesign?tab=repositories">
                         Github
                     </a>
                 </div>
                 <div>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/eva-krist%C3%B3fersd%C3%B3ttir-1aaa78261/">
                         LinkedIn
                     </a>
                 </div>

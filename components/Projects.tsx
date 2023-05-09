@@ -30,12 +30,12 @@ export default () => {
                         <div className={`project-description ${fontMain.className} smiley`}>
                             <div className="project-description-header">
                                 <h2>
-                                    Project I Header
+                                    Project I - Nocturne
                                 </h2>
                             </div>
                             <div>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit temporibus deleniti earum nesciunt non vero officia, optio libero saepe recusandae consequuntur omnis consequatur ut similique ipsam eum tempora! At.
+                                    An internet radio project for the people that plays classical music from the internet archive. Nocturne supports free information advocacy.
                                 </p>
                             </div>
                             <div className="project-description-links">
@@ -62,15 +62,15 @@ export default () => {
             >
                 <section className="section-flex">
                     <div>
-                        <div className={`project-description ${fontMain.className} smiley`}>
+                        <div className={`project-description ${fontMain.className} smiley-2`}>
                             <div className="project-description-header">
                                 <h2>
-                                    Project II Header
+                                    Project II - NESpunk
                                 </h2>
                             </div>
                             <div>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit temporibus deleniti earum nesciunt non vero officia, optio libero saepe recusandae consequuntur omnis consequatur ut similique ipsam eum tempora! At.
+                                    NESpunk is a fansite of the NES. It's a meeting place for the homebrew and chiptune scenes where you can buy homebrew carts and listen to tracks. It also has a free procedural chiptune tracker app. 
                                 </p>
                             </div>
                             <div className="project-description-links">

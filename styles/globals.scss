@@ -314,20 +314,20 @@ a {
 
 @keyframes glitch-smiley {
   0% {
-    opacity: 0.25;
+    opacity: 0.35;
   }
   50% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
   100% {
-    opacity: 0.25;
+    opacity: 0.35;
   }
 }
 
 .smiley::before {
-  background-image: url(../public/GlitchSmiley.png);
+  background-image: url(../public/hacker.jpg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 100% -200%;
   background-size: 60%;
   content: "";
   position: absolute;
@@ -338,7 +338,25 @@ a {
   z-index: -1;
   opacity: 0.25;
   overflow: hidden;
-  transform: rotate(-15deg);
-  animation: glitch-smiley 1s steps(3, end) infinite;
+  // transform: rotate(-15deg);
+  animation: glitch-smiley 4s steps(10, end) infinite;
 }
 
+
+.smiley-2::before {
+  background-image: url(../public/hacker.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% -25%;
+  background-size: 60%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.25;
+  overflow: hidden;
+  // transform: rotate(-15deg);
+  animation: glitch-smiley 4s steps(10, end) infinite;
+}
