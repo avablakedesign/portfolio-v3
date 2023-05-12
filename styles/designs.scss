@@ -55,6 +55,7 @@
 
         &-screen {
             position: absolute;
+            z-index: -1;
 
             & img {
                 width: 100%;
@@ -114,25 +115,25 @@
                 &-8 {
                     top: 250vh;
                     left: 20vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
                 }
                 &-9 {
                     top: 300vh;
                     left: 40vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
                 }
                 &-10 {
                     top: 325vh;
                     left: 75vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
                 }
                 &-11 {
                     top: 350vh;
                     left: 20vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
                 }
             }
@@ -141,15 +142,37 @@
                     transform: translateY(-50%);
                     top: 50vh;
                     left: 65vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
                 }
                 &-1 {
                     transform: translateY(-50%) rotate(-90deg);
                     top: 50vh;
                     left:54vw;
-                    width: 15rem;
+                    width: 15vw;
                     height: 30rem;
+                }
+                @media (max-width:750px) {
+                    &-0,&-1 {
+                        top: max(100vh);
+                        left:40%;
+                        width: 50vw;
+                        height: 100vw;
+                    }
+                    &-1{
+                        transform: translate(-85%,-50%) rotate(-90deg);  
+                    }
+                }
+                @media (orientation:landscape) {
+                    &-0, &-1 {
+                        top:150vh;
+                    }
+                    &-0 {
+                        transform: translate(-50%, -50%);
+                    }
+                    &-1 {
+                        transform: translate(-50%, 2.5rem);
+                    }
                 }
             }
         }
