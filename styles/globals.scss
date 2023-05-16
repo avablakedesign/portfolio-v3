@@ -102,6 +102,7 @@ a {
 .content {
   transform: scale(2);
 }
+
 .content .text {
   position: relative;
   color: #fff;
@@ -439,8 +440,9 @@ a {
 @media (max-width:1024px) {
   .content {
     transform: scale(1);
+
     & .text {
-      color:transparent;
+      color: transparent;
     }
   }
 }
@@ -471,5 +473,55 @@ a {
   .video-wrapper {
     align-items: center;
     width: 100%;
+  }
+}
+
+@media (max-width:916px) {
+  .content .text:before {
+    animation: glitch-1 0s linear infinite reverse;
+  }
+
+  .content .text:after {
+    animation: glitch-2 0s linear infinite reverse;
+  }
+}
+
+@media (max-width:913px) {
+  .content .text:before {
+    animation: glitch-1 0s linear infinite reverse;
+  }
+
+  .content .text:after {
+    animation: glitch-2 0s linear infinite reverse;
+  }
+}
+@media (max-width:897px) {
+  .content .text:before {
+    animation: glitch-1 0s linear infinite reverse;
+  }
+
+  .content .text:after {
+    animation: glitch-2 0s linear infinite reverse;
+  }
+}
+
+@media (max-width:668px) {
+  .content .text:before {
+    animation: glitch-1 0s linear infinite reverse;
+  }
+
+  .content .text:after {
+    animation: glitch-2 0s linear infinite reverse;
+  }
+}
+
+@media (max-width:540px) {
+
+  .content .text:before {
+    animation: glitch-1 0s linear infinite reverse;
+  }
+
+  .content .text:after {
+    animation: glitch-2 0s linear infinite reverse;
   }
 }

@@ -10,7 +10,6 @@
 .about-text {
     overflow: hidden;
     position:absolute;
-    border: 2px solid blue;
     font-family: Coolvetica;
     font-size:1.75rem;
     letter-spacing: 5px;
@@ -22,7 +21,15 @@
     text-align: justify;
     }
 
-
+    @media (max-width:916px) {
+        .aboutHeader {
+            width: 100%;
+            font-size: 2.5rem;
+        }
+        .about-text {
+            top: 22.5rem;
+        }
+    }
 @media (max-width:913px) {
         .aboutHeader {
             width: 100%;
