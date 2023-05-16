@@ -129,13 +129,13 @@ a {
 .content .text:before {
   left: 3px;
   text-shadow: -2px 0 red;
-  animation: glitch-1 20s linear infinite reverse;
+  animation: glitch-1 10s linear infinite reverse;
 }
 
 .content .text:after {
   left: -3px;
   text-shadow: -2px 0 blue;
-  animation: glitch-2 20s linear infinite reverse;
+  animation: glitch-2 10s linear infinite reverse;
 }
 
 @keyframes glitch-1 {

@@ -40,7 +40,7 @@ export default () => {
                             </div>
                             <div className="project-description-links">
                                 <div>
-                                    <a href="#">
+                                    <a href="https://github.com/evakdesign/nocturne">
                                         <GlitchButton text="Github" />
                                     </a>
                                 </div>
@@ -75,7 +75,7 @@ export default () => {
                             </div>
                             <div className="project-description-links">
                                 <div>
-                                    <a href="#">
+                                    <a href="https://github.com/evakdesign/dragonpunk">
                                         <GlitchButton text="Github" />
                                     </a>
                                 </div>

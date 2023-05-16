@@ -19,10 +19,10 @@ export default function Home() {
             PIXI.Assets.load('../slimegirl2.png').then((texture) => {
                 const plane = new PIXI.SimplePlane(texture, 10, 10);
 
-                plane.width = app.view.height * .55;
-                plane.height = app.view.height * .55;
-                plane.x = (app.view.width * .5) - (plane.width *.42);
-                plane.y = app.view.height * .33 ;
+                plane.width = app.view.height * .35;
+                plane.height = app.view.height * .35;
+                plane.x = (app.view.width * .5) - (plane.width *.5);
+                plane.y = app.view.height * .05;
 
                 app.stage.addChild(plane);
 
