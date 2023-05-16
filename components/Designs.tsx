@@ -34,7 +34,7 @@ export default () => {
                     else {
                         count = 0
                     }
-                    console.log(count);
+                    // console.log(count);
                     // filter.size = Math.floor(Math.sin(count)*20);
                 });
             };

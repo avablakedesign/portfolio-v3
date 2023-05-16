@@ -129,7 +129,7 @@ a {
 .content .text:before {
   left: 3px;
   text-shadow: -2px 0 red;
-  animation: glitch-1 10s linear infinite reverse;
+  animation: glitch-1 5s linear infinite reverse;
 }
 
 .content .text:after {
@@ -430,7 +430,7 @@ a {
 
 @media (max-width: 376px) {
   .content .text {
-    border: 2px solid blue;
+    // border: 2px solid blue;
     // transform: scale(0.75);
     // -webkit-transform: scale(0.75);
   }
