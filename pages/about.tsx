@@ -15,7 +15,10 @@ export default function Home() {
                 autoDensity: false,
                 resolution: 1
             });
-
+            window.onresize = (event:any) => {
+                app.view.width = canvasRef.current?.clientWidth;
+                app.view.height = canvasRef.current?.clientHeight;
+            }    
             PIXI.Assets.load('../slimegirl2.png').then((texture) => {
                 const plane = new PIXI.SimplePlane(texture, 10, 10);
 

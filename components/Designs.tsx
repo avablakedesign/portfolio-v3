@@ -15,6 +15,10 @@ export default () => {
                 autoDensity: false,
                 resolution: 1
             });
+            window.onresize = (event:any) => {
+                app.view.width = canvasRef.current?.clientWidth
+                app.view.height = canvasRef.current?.clientHeight
+            }
             const asciified = (app:any, filter:any) => {
                 let count = 0;
                 app.ticker.add(()=>{
