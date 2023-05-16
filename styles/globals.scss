@@ -107,7 +107,6 @@ a {
   position: relative;
   color: #fff;
   font-weight: 700;
-  font-size: 3rem;
   // transform: scale(2);
   padding: 30px;
   letter-spacing: 2px;
@@ -431,20 +430,51 @@ a {
 
 @media (max-width: 376px) {
   .content .text {
-    transform: scale(0.75);
+    border: 2px solid blue;
+    // transform: scale(0.75);
     // -webkit-transform: scale(0.75);
   }
 }
 
 
-@media (max-width:1024px) {
-  .content {
-    transform: scale(1);
+@media (max-width:1181px) {
+  // .smiley, .smiley-2 {
+  //   display:none;
+  // }
 
-    & .text {
-      color: transparent;
-    }
+  .project-description {
+    height: 50vh;
   }
+  .section {
+      min-height: 0vh;
+      
+    }
+  .section-two {
+  }  
+}
+
+@media (max-width:913px) {
+  .project-description {
+    height: 50vh;
+  }
+  .section {
+      min-height: 0vh;
+      
+    }
+  .section-two {
+  }  
+}
+
+@media (max-width:820px) {
+  .project-description {
+    height: 50vh;
+  }
+  .section {
+      min-height: 0vh;
+      
+    }
+  .section-two {
+  }  
 }
 
 @media (max-width: 750px) {
@@ -476,52 +506,63 @@ a {
   }
 }
 
-@media (max-width:916px) {
-  .content .text:before {
-    animation: glitch-1 0s linear infinite reverse;
+@media (max-width:741px) {
+  .project-description {
+    height: 70vh;
   }
-
-  .content .text:after {
-    animation: glitch-2 0s linear infinite reverse;
-  }
+  .section {
+      min-height: 0vh;
+    }
+  .section-two {
+  }  
 }
 
-@media (max-width:913px) {
-  .content .text:before {
-    animation: glitch-1 0s linear infinite reverse;
-  }
 
-  .content .text:after {
-    animation: glitch-2 0s linear infinite reverse;
-  }
-}
-@media (max-width:897px) {
-  .content .text:before {
-    animation: glitch-1 0s linear infinite reverse;
-  }
-
-  .content .text:after {
-    animation: glitch-2 0s linear infinite reverse;
-  }
-}
 
 @media (max-width:668px) {
-  .content .text:before {
-    animation: glitch-1 0s linear infinite reverse;
+  .project-description {
+    height: 70vh;
   }
-
-  .content .text:after {
-    animation: glitch-2 0s linear infinite reverse;
-  }
+  .section {
+      min-height: 0vh;
+    }
+  .section-two {
+  }  
 }
 
-@media (max-width:540px) {
 
-  .content .text:before {
-    animation: glitch-1 0s linear infinite reverse;
+@media (max-width:415px) {
+  .project-description {
+    height: 50vh;
   }
+  .section {
+      min-height: 0vh;
+    }
+  .section-two {
+  }  
+}
 
-  .content .text:after {
-    animation: glitch-2 0s linear infinite reverse;
+@media (max-width:376px) {
+  .project-description {
+    height: 75vh;
+  }
+  .section {
+      min-height: 0vh;
+    }
+  .section-two {
+  }  
+}
+
+@media (max-width:280px) {
+  .project-description {
+    height: 100vh;
+  }
+  .section {
+      min-height: 0vh;
+    }
+  .section-two {
+  }  
+  .text {
+    contain: content;
   }
 }
