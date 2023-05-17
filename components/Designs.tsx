@@ -10,14 +10,14 @@ export default () => {
             const app: any = new PIXI.Application({
                 antialias: true,
                 view: canvasRef.current,
-                resizeTo: canvasRef.current,
+                // resizeTo: canvasRef.current,
                 // backgroundColor: 0xF00000,
                 autoDensity: false,
                 resolution: 1
             });
             window.onresize = (event:any) => {
-                app.view.width = canvasRef.current?.clientWidth
-                app.view.height = canvasRef.current?.clientHeight
+                app.view.width = canvasRef.current?.width
+                app.view.height = canvasRef.current?.height
             }
             const asciified = (app:any, filter:any) => {
                 let count = 0;

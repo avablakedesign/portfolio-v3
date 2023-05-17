@@ -10,22 +10,22 @@ export default function Home() {
             const app: any = new PIXI.Application({
                 antialias:true,
                 view:canvasRef.current,
-                resizeTo:canvasRef.current,
+                // resizeTo:canvasRef.current,
                 backgroundColor: 0x000000,
                 autoDensity: false,
                 resolution: 1
             });
             window.onresize = (event:any) => {
-                app.view.width = canvasRef.current?.clientWidth;
-                app.view.height = canvasRef.current?.clientHeight;
+                app.view.width = canvasRef.current?.width;
+                app.view.height = canvasRef.current?.height;
             }    
             PIXI.Assets.load('../slimegirl2.png').then((texture) => {
                 const plane = new PIXI.SimplePlane(texture, 10, 10);
 
-                plane.width = app.view.height * .35;
-                plane.height = app.view.height * .35;
+                plane.width = app.view.height * .85;
+                plane.height = app.view.height * .85;
                 plane.x = (app.view.width * .5) - (plane.width *.5);
-                plane.y = app.view.height * .05;
+                plane.y = (app.view.height * .5) - (plane.height *.5);
 
                 app.stage.addChild(plane);
 

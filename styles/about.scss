@@ -1,84 +1,90 @@
-.aboutHeader{
-    font-size:5rem;
+.aboutHeader {
+    font-size: 5rem;
     font-family: Coolvetica;
     display: flex;
     justify-content: center;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .about-text {
     overflow: hidden;
-    position:absolute;
     font-family: Coolvetica;
-    font-size:1.75rem;
+    font-size: 1.50rem;
     letter-spacing: 5px;
-    text-indent: 8ch;
+    text-indent: 4ch;
     line-height: 1.2;
-    margin:2.5rem 0;
-    top: 45rem;
-    padding: 1rem;
-    text-align: justify;
+    // margin: 2.5rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: start;
+}
+
+@media (max-width:916px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
     }
 
-    @media (max-width:916px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 22.5rem;
-        }
+    .about-text {
+        // top: 22.5rem;
     }
+}
+
 @media (max-width:913px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 20rem;
-        }
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
     }
+
+    .about-text {
+        // top: 20rem;
+    }
+}
 
 @media (max-width:821px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 20rem;
-        }
-    }    
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 20rem;
+    }
+}
 
 @media (max-width:616px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 12rem;
-        }
-    } 
-    
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 12rem;
+    }
+}
+
 @media (max-width:541px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 15rem;
-        }
-    } 
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 15rem;
+    }
+}
 
 @media (max-width:415px) {
-        .aboutHeader {
-            width: 100%;
-            font-size: 2.5rem;
-        }
-        .about-text {
-            top: 12rem;
-        }
-    }    
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 12rem;
+    }
+}
 
 @media (max-width:281px) {
     .aboutHeader {
@@ -86,11 +92,3 @@
         font-size: 2.5rem;
     }
 }
-
-
-
-
-
-   
-   
-

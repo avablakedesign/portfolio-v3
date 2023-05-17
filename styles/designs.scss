@@ -6,9 +6,10 @@
 }
 
 .designs {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     position: relative;
+    left:calc(-1 * var(--app_padding));
 
     & canvas {
         width: 100%;
