@@ -27,7 +27,8 @@ export default () => {
                         </div>
                     </div>
                     <div>
-                        <div className={`project-description ${fontMain.className} smiley`}>
+                        <div className={`smiley`}></div>
+                        <div className={`project-description ${fontMain.className}`}>
                             <div className="project-description-header">
                                 <h2>
                                     Project I - Nocturne
@@ -62,7 +63,8 @@ export default () => {
             >
                 <section className="section-flex">
                     <div>
-                        <div className={`project-description ${fontMain.className} smiley-2`}>
+                        <div className={`smiley-2`}></div>
+                        <div className={`project-description ${fontMain.className}`}>
                             <div className="project-description-header">
                                 <h2>
                                     Project II - NESpunk

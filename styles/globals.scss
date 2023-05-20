@@ -428,57 +428,70 @@ a {
 }
 
 
-@media (max-width: 376px) {
-  .content .text {
-    // border: 2px solid blue;
-    // transform: scale(0.75);
-    // -webkit-transform: scale(0.75);
-  }
-}
+// @media (max-width: 376px) {
+//   .content .text {
+//     // border: 2px solid blue;
+//     // transform: scale(0.75);
+//     // -webkit-transform: scale(0.75);
+//   }
+// }
 
 
 @media (max-width:1181px) {
-  // .smiley, .smiley-2 {
+  //  .smiley {
+  //   display: none;
+  //  } 
+  // .smiley-2 {
   //   display:none;
   // }
 
   .project-description {
     height: 50vh;
   }
+
   .section {
-      min-height: 0vh;
-      
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+
+  }
+
+  .section-two {}
 }
 
 @media (max-width:913px) {
   .project-description {
     height: 50vh;
   }
+
   .section {
-      min-height: 0vh;
-      
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+
+  }
+
+  .section-two {}
 }
 
 @media (max-width:820px) {
   .project-description {
     height: 50vh;
   }
+
   .section {
-      min-height: 0vh;
-      
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+
+  }
+
+  .section-two {}
 }
 
-@media (max-width: 750px) {
-  .smiley .smiley-2 {
+@media (max-height:754px) {
+  .smiley, .smiley-2 {
+    display: none;
+    border: 2px solid magenta;
+  }
+}
+
+@media (max-width: 751px) {
+  .smiley, .smiley-2 {
     display: none;
   }
 
@@ -507,61 +520,120 @@ a {
 }
 
 @media (max-width:741px) {
+  .smiley .smiley-2 {
+    display: none;
+  }
+
   .project-description {
     height: 70vh;
   }
+
   .section {
-      min-height: 0vh;
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+  }
+
+  .section-two {}
 }
 
 
 
 @media (max-width:668px) {
+  .smiley .smiley-2 {
+    display: none;
+  }
+
   .project-description {
     height: 70vh;
   }
+
   .section {
-      min-height: 0vh;
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+  }
+
+  .section-two {}
 }
 
+@media (max-width:541px) {
+
+  .smiley,
+  .smiley-2 {
+    display: none;
+  }
+
+  // }
+  // .project-description {
+  //   height: 50vh;
+  // }
+  // .section {
+  //     min-height: 0vh;
+  //   }
+  .project-description {
+    // margin-top: 5rem;
+  }
+}
+
+@media (max-width:470px) {
+
+  .smiley,
+  .smiley-2 {
+    display: none;
+  }
+
+  // }
+  // .project-description {
+  //   height: 50vh;
+  // }
+  // .section {
+  //     min-height: 0vh;
+  //   }
+  .project-description {
+    margin-top: 5rem;
+  }
+}
 
 @media (max-width:415px) {
+  .smiley .smiley-2 {
+    display: none;
+  }
+
   .project-description {
     height: 50vh;
   }
+
   .section {
-      min-height: 0vh;
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+  }
+
+  .section-two {}
 }
 
 @media (max-width:376px) {
+  .smiley .smiley-2 {
+    display: none;
+  }
+
   .project-description {
     height: 75vh;
   }
+
   .section {
-      min-height: 0vh;
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+  }
+
+  .section-two {}
 }
 
 @media (max-width:280px) {
   .project-description {
     height: 100vh;
   }
+
   .section {
-      min-height: 0vh;
-    }
-  .section-two {
-  }  
+    min-height: 0vh;
+  }
+
+  .section-two {}
+
   .text {
     contain: content;
   }
