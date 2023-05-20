@@ -70,7 +70,17 @@ export default () => {
         return designsArray.map((design, index) => {
             return (
                 <div className={`designs-app-screen designs-app-screen-lain-${index}`} key={index}>
-                    <img src={`designs/Lain/screen-${index}.png`} />
+                    <ObserverWrapper
+                        observedClass={"section-one-entered"}
+                        observerThreshold={0.2}
+                        callback={
+                            () => {
+                                console.log("intersecting")
+                            }
+                        }
+                    >
+                        <img src={`designs/Lain/screen-${index}.png`} />
+                    </ObserverWrapper>
                 </div>
             )
         });
@@ -93,7 +103,7 @@ export default () => {
                 </div>
                 <div className="designs-app">
                     <div className="designs-app-window designs-app-window-1">
-                        {/*Work on this*/}
+                        {renderLainDesigns()}
                         <ObserverWrapper
                             baseClasses={"section section-one"}
                             observedClass={"section-one-entered"}
@@ -104,15 +114,14 @@ export default () => {
                                 }
                             }
                         >
-                            {renderLainDesigns()}
-                        <div className="lainwrapper">
-                            <h3>
-                                Lain | Encrypted Social Media
-                            </h3>
-                            <h4 className="lainwrapper-quote">
-                                Líkingin er aldrei það sem leynir sannleikanum — það er sannleikurinn sem leynir því að hann er ekki til. Líkingin er sönn.
-                            </h4>
-                        </div>
+                            <div className="lainwrapper">
+                                <h3>
+                                    Lain | Encrypted Social Media
+                                </h3>
+                                <h4 className="lainwrapper-quote">
+                                    Líkingin er aldrei það sem leynir sannleikanum — það er sannleikurinn sem leynir því að hann er ekki til. Líkingin er sönn.
+                                </h4>
+                            </div>
                         </ObserverWrapper>
                     </div>
                     <div className="designs-app-window designs-app-window-2">

@@ -191,7 +191,78 @@
                 //     }
                 // }
 
-                @media (max-width:821px) or (max-width: 913px) {
+                @media (max-width: 913px) {
+                    @media (max-width:821px) {
+                        &-0,
+                        &-1,
+                        &-2,
+                        &-3,
+                        &-4,
+                        &-5,
+                        &-6,
+                        &-7,
+                        &-8,
+                        &-9,
+                        &-10,
+                        &-11 {
+                            width: 20vw;
+                            height: 30vh;
+                        }
+    
+                        &-0 {
+                            left: 5vw;
+                            top: 20vh;
+                        }
+    
+                        &-1 {
+                            left: 60vw;
+                            top: 70vh;
+                        }
+    
+                        &-2 {
+                            left: 45vw;
+                            top: 2.5vh;
+    
+                        }
+    
+                        &-3 {
+                            left: 45vw;
+                            top: 110vh;
+                        }
+    
+                        &-4 {
+    
+                            left: 5vw;
+                        }
+    
+                        &-5 {
+                            left: 45vw;
+                        }
+    
+                        &-6 {
+                            top: 200vh;
+                        }
+    
+                        &-7 {
+                            left: 50vw;
+                        }
+    
+                        &-8 {
+                            left: 5vw;
+                        }
+    
+                        &-9 {
+                            left: 10vw;
+                        }
+    
+                        &-10 {
+                            left: 60vw;
+                        }
+    
+                    }
+                }
+
+                @media (max-width:821px) {
 
                     &-0,
                     &-1,
@@ -216,7 +287,7 @@
 
                     &-1 {
                         left: 60vw;
-                        top: 70vh;
+                        top: 77vh;
                     }
 
                     &-2 {
@@ -231,7 +302,7 @@
                     }
 
                     &-4 {
-
+                        
                         left: 5vw;
                     }
 
