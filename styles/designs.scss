@@ -183,14 +183,15 @@
                     }
 
                 }
-                @media (max-width:913px) {
-                &-1 {
-                    left: 60vw;
-                    top: 70vh;
-                }
-            }
-                @media (max-width:821px) or (max-width: 913px)
-                {
+
+                // @media (max-width:913px) {
+                //     &-1 {
+                //         left: 60vw;
+                //         top: 70vh;
+                //     }
+                // }
+
+                @media (max-width:821px) or (max-width: 913px) {
 
                     &-0,
                     &-1,
@@ -207,7 +208,7 @@
                         width: 20vw;
                         height: 30vh;
                     }
-                    
+
                     &-0 {
                         left: 5vw;
                         top: 20vh;
@@ -221,7 +222,7 @@
                     &-2 {
                         left: 45vw;
                         top: 2.5vh;
-                        
+
                     }
 
                     &-3 {
@@ -230,7 +231,7 @@
                     }
 
                     &-4 {
-                    
+
                         left: 5vw;
                     }
 
@@ -259,18 +260,77 @@
                     }
 
                 }
-                @media (max-width:541px) {
+                /*Work on this section*/
+                @media (orientation:landscape) and (max-width:897px) {
+                    &-0,
+                    &-1,
+                    &-2,
+                    &-3,
+                    &-4,
+                    &-5,
+                    &-6,
+                    &-7,
+                    &-8,
+                    &-9,
+                    &-10,
+                    &-11 {
+                        width: 40vw;
+                        height: 60vh;
+                    }
+                    
+                    &-0 {
+                        left: 5vw;
+                        top: 20vh;
+                    }
+
+                    &-1 {
+                        left: 60vw;
+                        top: 35vh;
+                    }
+
+                    &-2 {
+                        left: 45vw;
+                        top: 5vh;
+                    }
+
                     &-3 {
+                        left: 45vw;
                         top: 100vh;
-                        /*fix this bug*/
-                        display: none;
-                        border: 2px solid magenta;
                     }
+
+                    &-4 {
+                        left: 5vw;
+                    }
+
                     &-5 {
-                        top:70vh;
+                        left: 25vw;
                     }
-                } 
-                @media (max-width:415px) or (max-width:769px){
+
+                    &-6 {
+                        top: 160vh;
+                    }
+
+                    &-7 {
+                        left: 50vw;
+                    }
+
+                    &-8 {
+                        
+                        left: 5vw;
+                    }
+
+                    &-9 {
+                        left: 0vw;
+                        top: 325vh;
+                    }
+
+                    &-10 {
+                        left: 60vw;
+                    }
+
+                }
+
+                @media (max-width:769px)  {
 
                     &-0,
                     &-1,
@@ -337,7 +397,109 @@
                     }
                 }
 
-                @media (max-width:360px) or (max-width:375px) {
+                @media (orientation:landscape) and (max-width:741px) {
+                    &-0,
+                    &-1,
+                    &-2,
+                    &-3,
+                    &-4,
+                    &-5,
+                    &-6,
+                    &-7,
+                    &-8,
+                    &-9,
+                    &-10,
+                    &-11 {
+                        width: 40vw;
+                        height: 60vh;
+                    }
+                    
+                    &-0 {
+                        left: 5vw;
+                        top: 20vh;
+                    }
+
+                    &-1 {
+                        left: 60vw;
+                        top: 35vh;
+                    }
+
+                    &-2 {
+                        left: 45vw;
+                        top: 5vh;
+                    }
+
+                    &-3 {
+                        left: 45vw;
+                        top: 100vh;
+                    }
+
+                    &-4 {
+                        left: 5vw;
+                    }
+
+                    &-5 {
+                        left: 25vw;
+                    }
+
+                    &-6 {
+                        top: 160vh;
+                    }
+
+                    &-7 {
+                        left: 50vw;
+                    }
+
+                    &-8 {
+                        
+                        left: 5vw;
+                    }
+
+                    &-9 {
+                        left: 0vw;
+                        top: 325vh;
+                    }
+
+                    &-10 {
+                        left: 60vw;
+                    }
+
+                }
+
+                @media (max-width:541px) {
+                    &-3 {
+                        top: 100vh;
+                        /*fix this bug*/
+                        display: none;
+                        border: 2px solid magenta;
+                    }
+
+                    &-5 {
+                        top: 70vh;
+                    }
+                }
+                @media (max-width:415px) {
+                    &-0,
+                    &-1,
+                    &-2,
+                    &-3,
+                    &-4,
+                    &-5,
+                    &-6,
+                    &-7,
+                    &-8,
+                    &-9,
+                    &-10,
+                    &-11 {
+                        width: 30vw;
+                        height: 60vh;
+                    }
+                    &-5 {
+                        top: 100vh;
+                    }
+                }
+
+                @media (max-width:361px) or (max-width:376px) {
 
                     &-0,
                     &-1,
@@ -362,7 +524,7 @@
 
                     &-1 {
                         left: 60vw;
-                        top: 70vh;
+                        top: 155vh;
                     }
 
                     &-2 {
@@ -372,7 +534,7 @@
 
                     &-3 {
                         left: 60vw;
-                        top: 70vh;
+                        top: 60vh;
                     }
 
                     &-4 {
@@ -380,7 +542,8 @@
                     }
 
                     &-5 {
-                        left: 45vw;
+                        left: 55vw;
+                        top: 55vh;
                     }
 
                     &-6 {
@@ -403,29 +566,18 @@
                         left: 60vw;
                     }
                 }
+                @media (max-width:281px) {
+                   &-4 {
+                    top: 180vh;
+                   }
+                   &-3 {
+                    top:30vh;
+                   }
+                   &-8 {
+                    border: 2 px solid magenta;
+                   }
 
-
-                // @media (max-width:361px) {
-                //     &-1 {
-                //         top: 120vh;
-                //     }
-                //     &-3 {
-                //         top: 60vh;
-                //     }
-
-                // }
-                // @media (max-width:281px) {
-                //    &-4 {
-                //     top: 180vh;
-                //    }
-                //    &-3 {
-                //     top:30vh;
-                //    }
-                //    &-8 {
-                //     border: 2 px solid magenta;
-                //    }
-
-                // }
+                }
             }
 
             &-bohemianFire {
@@ -445,6 +597,21 @@
                     height: 30rem;
                 }
 
+                @media (orientation:landscape) and (max-width:1368px) {
+                    &-0 {
+                        left: 30vw;
+                        top: 80vh;
+                        height: 100vh;
+                        width: 50vw;
+                    }
+
+                    &-1 {
+                        left: 0vw;
+                        top: 80vh;
+                        height: 50vh;
+                        width: 35vw;
+                    }
+                }
                 @media (orientation:landscape) and (max-width:1180px) {
 
                     &-0 {
@@ -461,29 +628,26 @@
                         width: 35vw;
                     }
                 }
-
-                @media (orientation:landscape) and (max-width:897px) {
-
+                @media (orientation) and (max-width:916px) {
                     &-0 {
                         left: 50vw;
-                        top: 130vh;
+                        top: 100vh;
                         height: 100vh;
                         width: 50vw;
                     }
 
                     &-1 {
-                        left: 35vw;
-                        top: 130vh;
-                        height: 50vh;
-                        width: 30vw;
+                        top: 100vh;
+                        height: 25vh;
+                        left: 65vw;
+                        transform: translate(-85%, -50%) rotate(-90deg);
                     }
+                
                 }
-
-                @media (max-width:821px) or (max-width:913px) {
-
+                @media (max-width:913px) {
                     &-0,
                     &-1 {
-                        left: 35vw;
+                        left: 40vw;
                         top: 50vh;
                         width: 50vw;
                         height: 50vh;
@@ -493,7 +657,85 @@
                         transform: translate(-85%, -50%) rotate(-90deg);
                     }
                 }
+                
+                @media (max-width:821px) {
 
+                    &-0,
+                    &-1 {
+                        left: 60vw;
+                        top: 100vh;
+                        width: 25vw;
+                        height: 25vh;
+                    }
+
+                    &-1 {
+                        transform: translate(-85%, -50%) rotate(-90deg);
+                    }
+                }
+
+                @media (orientation:landscape) and (max-width:897px) {
+
+                    &-0 {
+                        left: 50vw;
+                        top: 100vh;
+                        height: 100vh;
+                        width: 50vw;
+                    }
+
+                    &-1 {
+                        height: 25vh;
+                        left: 70vw;
+                        top: 100vh;
+                        transform: translate(-85%, -50%) rotate(-90deg);
+                    }
+                }
+                @media (max-width:821px) {
+                    &-0 {
+                        left: 30vw;
+                        top: 50vh;
+                        height: 100vh;
+                        width: 50vw;
+                    }
+
+                    &-1 {
+                        left: 32.5vw;
+                        top: 50vh;
+                        height: 50vh;
+                        width: 35vw;
+                    }
+                }
+                @media (max-width:769px) {
+
+                    &-0 {
+                        left: 30vw;
+                        top: 50vh;
+                        height: 100vh;
+                        width: 50vw;
+                    }
+
+                    &-1 {
+                        left: 32.5vw;
+                        top: 50vh;
+                        height: 50vh;
+                        width: 35vw;
+                    }
+                }
+
+                // @media (orientation:landscape) and (max-width:721px) {
+                //     &-0 {
+                //         left: 30vw;
+                //         top: 50vh;
+                //         height: 100vh;
+                //         width: 50vw;
+                //     }
+
+                //     &-1 {
+                //         left: 32.5vw;
+                //         top: 50vh;
+                //         height: 50vh;
+                //         width: 35vw;
+                //     }   
+                // }
                 @media (orientation:landscape) and (max-width:668px) {
 
                     &-0 {
@@ -513,6 +755,33 @@
                     }
                 }
 
+                @media (orientation:landscape) and (max-width:741px) {
+
+                    &-0 {
+                        left: 50vw;
+                        top: 130vh;
+                        height: 100vh;
+                        width: 50vw;
+                    }
+
+                    &-1 {
+                        left: 60vw;
+                        top: 130vh;
+                        height: 50vh;
+                        width: 30vw;
+                    }
+                }
+
+                @media (orientation:landscape) and (max-width:720px) {
+                    &-0{
+                    top: 90vh;
+                    left: 40vw;
+                    }
+                    &-1{
+                        top: 90vh;
+                        left: 40vw;
+                        }
+                }
                 @media (orientation:landscape) and (max-width:654px) {
 
                     &-0 {

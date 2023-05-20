@@ -42,6 +42,15 @@
     .splash-header {
         display: none;
     }
+    .smiley, .smiley-2 {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1025px) {
+    .smiley, .smiley-2 {
+        display: none;
+    }
 }
 
 @media (orientation:landscape) and (max-width: 916px) {
