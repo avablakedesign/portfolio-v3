@@ -483,12 +483,12 @@ a {
   .section-two {}
 }
 
-@media (max-height:754px) {
-  .smiley, .smiley-2 {
-    display: none;
-    border: 2px solid magenta;
-  }
-}
+// @media (max-height:754px) {
+//   .smiley, .smiley-2 {
+//     display: none;
+//     border: 2px solid magenta;
+//   }
+// }
 
 @media (max-width: 751px) {
   .smiley, .smiley-2 {
