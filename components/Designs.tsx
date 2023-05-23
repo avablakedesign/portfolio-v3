@@ -1,6 +1,6 @@
 import { AnimatedGIF } from '@pixi/gif';
 import * as PIXI from 'pixi.js'
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, Fragment } from 'react';
 import { AsciiFilter } from '@pixi/filter-ascii';
 import ObserverWrapper from './ObserverWrapper';
 
@@ -69,19 +69,19 @@ export default () => {
         const designsArray = new Array(12).fill(1);
         return designsArray.map((design, index) => {
             return (
-                <div className={`designs-app-screen designs-app-screen-lain-${index}`} key={index}>
-                    <ObserverWrapper
-                        observedClass={"section-one-entered"}
-                        observerThreshold={0.2}
-                        callback={
-                            () => {
-                                console.log("intersecting")
-                            }
+                <ObserverWrapper
+                    key={index}
+                    baseClasses={`designs-app-screen designs-app-screen-lain designs-app-screen-lain-${index}`}
+                    observedClass={"lain-enter"}
+                    observerThreshold={0.2}
+                    callback={
+                        () => {
+                            console.log("lain entered")
                         }
-                    >
+                    }
+                >
                         <img src={`designs/Lain/screen-${index}.png`} />
-                    </ObserverWrapper>
-                </div>
+                </ObserverWrapper> 
             )
         });
     };
@@ -89,7 +89,7 @@ export default () => {
         const designsArray = new Array(2).fill(1);
         return designsArray.map((design, index) => {
             return (
-                <div className={`designs-app-screen designs-app-screen-bohemianFire-${index}`} key={index}>
+                <div className={`designs-app-screen designs-app-screen-bohemianFire designs-app-screen-bohemianFire-${index}`} key={index}>
                     <img src={`designs/BohemianFire/screen-${index}.png`} />
                 </div>
             )

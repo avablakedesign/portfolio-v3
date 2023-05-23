@@ -1,15 +1,19 @@
 import Link from "next/link"
-export default () => {
+interface Props {
+    page:string;
+    pageName:string;
+}
+export default ({page, pageName}:Props) => {
     return (
         <footer className = "footer">
-            <div>
+            {/* <div>
                 <Link href="/">
                     Home
                 </Link>
-            </div>
+            </div> */}
             <div>
-                <Link href="/about">
-                    About
+                <Link href={page}>
+                    {pageName}
                 </Link>
             </div>
             <div className = "footer-socials">

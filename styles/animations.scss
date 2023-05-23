@@ -1,0 +1,14 @@
+@keyframes lain-enter {
+    0% {
+        opacity: 0.75;
+        transform: rotateX(45deg) rotateY(45deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+}
+
+.lain-enter {
+    animation: lain-enter 2s cubic-bezier(0.5, 1, 0.89, 1) forwards;
+}

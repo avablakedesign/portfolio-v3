@@ -1,5 +1,8 @@
-export default(props:any) => {
+interface Props {
+
+}
+export default({text, color}:any) => {
     return(
-        <button className="glitchButton">{props.text}</button>
+        <button className={`glitchButton glitchButton-${color}`} >{text}</button>
     )
 }

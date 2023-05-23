@@ -7,9 +7,14 @@
     border: 0;
     color: #fff;
     letter-spacing: 3px;
-    box-shadow: 6px 0px 0px #00E6F6;
+    box-shadow: 6px 0px 0px rgb(64, 224, 192);
     outline: transparent;
     position: relative;
+  }
+
+  .glitchButton-turquoise, .glitchButton-turquoise::after {
+    background: linear-gradient(45deg, transparent 5%, rgb(64, 224, 192) 5%);
+    box-shadow: 6px 0px 0px magenta;
   }
   
   .glitchButton::after {

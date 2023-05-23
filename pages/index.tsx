@@ -25,7 +25,7 @@ export default function Home() {
         </section>
         <section>
             {/* This is the footer and copyright.*/}
-            <Footer/>
+            <Footer page="/about" pageName="About"/>
         </section>
       </main>
     </>

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import * as PIXI from 'pixi.js'
 import { useEffect, useRef } from 'react';
 import Footer from '@/components/Footer'
+import GlitchButton from '@/components/GlitchButton';
 
 export default function Home() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -78,9 +79,12 @@ export default function Home() {
                             </p>
                         </div>
                     </div>
+                    <div className="about-glitch-button">
+                        <GlitchButton text="Hire me" color="turquoise" />
+                    </div>
                 </div>
                 <div className="no-slime">
-                    <Footer />
+                    <Footer page="/" pageName="Home" />
                 </div>
             </main>
         </>
