@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import IntroSection from '@/components/IntroSection'
 import Projects from '@/components/Projects'
 import Designs from '@/components/Designs'
@@ -15,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/slimegirl2.png" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <IntroSection/>
         <Projects/>    
             {/* This is where the portfolio projects will be displayed*/}
