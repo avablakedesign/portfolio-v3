@@ -373,8 +373,8 @@ a {
   font-style: italic;
 }
 
-.smiley {
-  // position:relative;
+.smiley, .smiley-2 {
+  display: none;
 }
 
 @keyframes glitch-smiley {
