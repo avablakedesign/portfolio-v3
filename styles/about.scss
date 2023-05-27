@@ -1,0 +1,154 @@
+.about-slime {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutHeader {
+    font-size: 5rem;
+    font-family: Coolvetica;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes rainbowExplosion {
+    0% {
+        filter:hue-rotate(0);    
+    }
+    100% {
+        filter:hue-rotate(100deg);
+    }
+
+}
+.about-text {
+    max-width: 100ch;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: Coolvetica;
+    font-size: 1.50rem;
+    letter-spacing: 5px;
+    text-indent: 4ch;
+    line-height: 1.25;
+    // margin: 2.5rem 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+    & span {
+        color:magenta;
+        animation: rainbowExplosion 1s linear infinite alternate;
+        &:nth-child(1) {
+            color:magenta;
+        }
+        &:nth-child(2) {
+            color: rgb(0,255,140);
+        }
+        &:nth-child(3) {
+            color: rgb(255, 225, 0);
+        }
+        &:nth-child(4) {
+            color: aqua;
+        }
+        &:nth-child(6) {
+            color: blueviolet;
+        }
+        &:nth-child(5) {
+            color: rgb(205, 46, 181);
+        }
+        &:nth-child(7) {
+            color:magenta;
+        }
+        &:nth-child(8) {
+            color:rgb(0, 42, 255);
+        }
+    }
+}
+
+.about-glitch-button {
+    justify-self: center;
+    margin: 2.5rem 0;
+}
+
+.no-slime {
+    margin-top: 1.5rem;
+    & .footer {
+        background-image: url(../public/GlitchSmiley.png);
+    }
+}
+
+@media (max-width:916px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 22.5rem;
+    }
+}
+
+@media (max-width:913px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 20rem;
+    }
+}
+
+@media (max-width:821px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 20rem;
+    }
+}
+
+@media (max-width:616px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 12rem;
+    }
+}
+
+@media (max-width:541px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 15rem;
+    }
+}
+
+@media (max-width:415px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .about-text {
+        // top: 12rem;
+    }
+}
+@media (max-width:450px) {
+    .about-text {
+        font-size: .5rem;
+    }
+}
+@media (max-width:281px) {
+    .aboutHeader {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+}

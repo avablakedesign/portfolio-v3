@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 1.5rem;
+    font-family: Coolvetica;
+    font-size: 1.5rem;
+
+    &-socials {
+        display: flex;
+        justify-content: center;
+
+        & * {
+            margin: 0 0.5rem;
+        }
+    }
+}
+
+@media (max-width:750px) {
+    .footer {
+        padding: 1 0;
+        font-size: 1rem;
+        position:relative;
+        flex-direction: column;
+        background-image: url(../public/slimegirl2.png);
+        background-size: 2.5rem;
+        background-position: center right;
+        background-repeat: no-repeat;
+        // &::after {
+            // top: 0;
+        //     right: 2.5rem;
+        //     position: absolute;
+        //     content:"";
+        //     border: 2px color magenta;
+        //     height: 2.5rem;
+        //     width:2.5rem;
+        // }
+
+        &-socials {
+            flex-direction: column;
+            justify-content: flex-start;
+            & *{
+                margin: 0 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.splash-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+
+    &-content {
+        margin-top: 28vh;
+        margin-bottom: 2.25rem;
+        width:100vw;
+        overflow: hidden;
+        align-items: center;
+    }
+}
+
+.splash-header-flow {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-vert {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    & * {
+        display: block;
+
+        & svg {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1180px) {
+    .splash-header {
+        display: none;
+    }
+    .smiley, .smiley-2 {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 1025px) {
+    .smiley, .smiley-2 {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 916px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (max-width: 913px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 897px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 844px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (max-width: 821px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 668px) {
+    .splash-header {
+        display: none;
+    }
+}
+@media (orientation:landscape) and (max-width: 654px) {
+    .splash-header {
+        display: none;
+    }
+}
+
+@media (max-width: 541px) {
+    .splash-header {
+        display: none;
+    }
+
+    .glitchButton {
+        display: flex;
+
+    }
+}
+
+@media (max-width: 376px) {
+    .splash-header {
+        display: none;
+    }
+    .splash-header-flow .splash-header-flow-vert {
+        font-size: 1rem;
+        padding-top:5rem;
+
+    }
+
+    .glitchButton {
+        display: flex;
+
+    }
+}
+
+@media (max-width: 376px) {
+    .splash-header {
+        display: none;
+    }
+    .splash-header-flow .splash-header-flow-vert {
+        font-size: 1rem;
+        padding-top:5rem;
+
+    }
+
+    .glitchButton {
+        display: flex;
+
+    }
+}
+
+@media (max-width: 281px) {
+    .splash-header {
+        display: none;
+    }
+    .splash-header-flow .splash-header-flow-vert {
+        font-size: 1rem;
+        padding-top:5rem;
+
+    }
+
+    .glitchButton {
+        display: flex;
+
+    }
+    video-wrapper {
+
+    }
+}
