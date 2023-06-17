@@ -1,6 +1,7 @@
 import ObserverWrapper from "./ObserverWrapper"
-import localFontOne from 'next/font/local'
+import localFontOne from "next/font/local"
 import GlitchButton from "./GlitchButton"
+import Link from "next/link"
 const fontMain = localFontOne({
     src: "../public/coolvetica rg.otf"
 })
@@ -21,8 +22,8 @@ export default () => {
                 <section className="section-flex">
                     <div>
                         <div className="video-wrapper">
-                            <a href="https://nocturne-radio.vercel.app/" target="_blank" title="site | Nocturne radio for the people.">
-                                <img src="nocturne-screenshot-2.png" />
+                            <a href="" target="_blank" title="SHINOBI | The end to end encrypted code editor.">
+                                {/* <img src="Shinobi.jpg" /> */}
                             </a>
                         </div>
                     </div>
@@ -31,19 +32,19 @@ export default () => {
                         <div className={`project-description ${fontMain.className}`}>
                             <div className="project-description-header">
                                 <h2>
-                                    Project I - Nocturne
+                                    SHINOBI
                                 </h2>
                             </div>
                             <div>
                                 <p>
-                                    An internet radio project for the people that plays classical music from the internet archive. Nocturne supports free information advocacy.
+                                    An end to end encrypted code editor. Collaborate privately, encrypt your git. Ships with a sandboxed Copilot &mdash; with stealth, with style. 
                                 </p>
                             </div>
                             <div className="project-description-links">
                                 <div>
-                                    <a href="https://github.com/evakdesign/nocturne">
-                                        <GlitchButton text="Github" />
-                                    </a>
+                                    <Link href="/shinobi">
+                                        <GlitchButton text="Project Link" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -67,18 +68,18 @@ export default () => {
                         <div className={`project-description ${fontMain.className}`}>
                             <div className="project-description-header">
                                 <h2>
-                                    Project II - NESpunk
+                                    DOUBLOON
                                 </h2>
                             </div>
                             <div>
                                 <p>
-                                    NESpunk is a fansite of the NES. It's a meeting place for the homebrew and chiptune scenes where you can buy homebrew carts and listen to tracks. It also has a free procedural chiptune tracker app. 
+                                    A mock up of a Treasure Hunter app. Search globally for Doubloons, find geocached swag such as from Supreme or Apple.
                                 </p>
                             </div>
                             <div className="project-description-links">
                                 <div>
-                                    <a href="https://github.com/evakdesign/dragonpunk">
-                                        <GlitchButton text="Github" />
+                                    <a href="doubloon">
+                                        <GlitchButton text="project link" />
                                     </a>
                                 </div>
                             </div>
@@ -86,11 +87,11 @@ export default () => {
                     </div>
                     <div>
                         <div className="video-wrapper">
-                            <img src="nespunk_screenshot.png" />
-                        </div>
+                                    {/* <img src="Doubloon-Ad.jpg" /> */}
                     </div>
-                </section>
-            </ObserverWrapper>
+                </div>
+            </section>
+        </ObserverWrapper >
             <section>
 
             </section>

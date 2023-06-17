@@ -119,7 +119,12 @@ export default () => {
                                     Lain | Encrypted Social Media
                                 </h3>
                                 <h4 className="lainwrapper-quote">
-                                    Líkingin er aldrei það sem leynir sannleikanum — það er sannleikurinn sem leynir því að hann er ekki til. Líkingin er sönn.
+                                    <div>
+                                    "The simulacrum is never what hides the truth-- it is truth that hides the fact that there is none. The simulacrum is true."
+                                    </div>
+                                    <div>
+                                    「シミュラクラムは決して真実を隠すものではありません-何もないという事実を隠すのは真実です。シミュラクラムは真実です。」
+                                    </div>
                                 </h4>
                             </div>
                         </ObserverWrapper>
@@ -141,8 +146,13 @@ export default () => {
                                     Bohemian Fire | The Next Revolution in Film.
                                 </h3>
                                 <h4 className="designs-quote">
-                                    ある期間の映画は、新しい形と新しい形で議題に戻ろうとします。しかし、これら2種類の映画の違いは、実在の人物と彼のように見えるオートマトンの違いのようなものです。
-                                </h4>
+                                    <div>
+                                    "The greatest art is to set a fire in the minds of men, and to inflame their hearts."
+                                    </div>
+                                    <div>
+                                    「最大の芸術は、男性の心に火をつけ、彼らの心を燃やすことです。」
+                                    </div>
+                                </h4> 
                             </div>
                         </ObserverWrapper>
                     </div>

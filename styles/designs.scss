@@ -6,12 +6,15 @@
 }
 
 .lainwrapper {
-    position: absolute;
-    margin-top: 50rem;
+    // position: absolute;
+    // top: 0;
+    // min-height: 100vh;
+    margin-top: 45rem;
     //    z-index:1;
     font-family: Coolvetica;
     font-size: 2.5rem;
     font-weight: 100;
+    filter:drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.50));
 
     &-quote {
         font-family: Coolvetica;
@@ -19,6 +22,7 @@
         max-width: 85ch;
         font-weight: 100;
         margin-top: 0.25rem;
+        filter:drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.75));
     }
 }
 
@@ -69,6 +73,9 @@
 
             &-1 {
                 height: 425vh;
+                flex-direction: column;
+                justify-content: flex-start;
+                // height: 200vh;
                 display: flex;
                 flex-wrap: wrap;
             }

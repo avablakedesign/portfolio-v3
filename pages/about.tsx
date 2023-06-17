@@ -51,7 +51,7 @@ export default function Home() {
 
         <>
             <Head>
-                <title>About |Eva K Design</title>
+                <title>About | Eva K Design</title>
                 {/*Change the content of the site so that it is detailed.*/}
                 <meta name="description" content="futurist, product designer and creative visionary" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -73,7 +73,7 @@ export default function Home() {
                             <canvas ref={canvasRef} />
                         </div>
                         <div className="about-text">
-                            <p>     Hello, I am a <span>futurist</span> and <span>creative visionary</span>, and <span>slime enthusiast</span> who has professional experience in the industry as an
+                            <p>     Hello, I am a <span>futurist</span> and <span>creative visionary</span>, who has professional experience in the industry as an
                                 <span> Executive Creative Director</span>. I design across all mediums but specialize in developing technology, <span>generative design optimization</span>, pitching ideas, branding and idea development. I love innovating brands and I am skilled in <span>creative strategy</span>.
                                 I can create original ideas and guide them through all stages of development. Together we can work to build a new vision. I'm a strong proponent of ethics, especially regarding <span>artificial intelligence</span>.
                             </p>

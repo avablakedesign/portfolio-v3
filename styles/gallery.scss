@@ -1,0 +1,30 @@
+.gallery {
+    margin: 5rem 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    &-desc {
+        flex: 1;
+    }
+
+    &-pictures {
+        justify-content: center;
+        flex: 1;
+        overflow: scroll;
+        max-height: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow: hidden;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+//remove this
+img {
+    height:100vh;
+    width:50vw;
+}
