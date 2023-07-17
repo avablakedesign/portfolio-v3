@@ -36,36 +36,32 @@ export default function Home() {
                                 </p>
                             </div>
                             <div>
-                                <img src="./designs/Shinobi/icon.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/icon2.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/Iphone-Screen.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/ShinobiAd4-variant3.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/background2.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/background3.jpg"></img>
-                            </div>
-                            <div>
-                                <img src="./designs/Shinobi/background.jpg"></img>
+                                <div>
+                                    <img src="./designs/Shinobi/icon.jpg"></img>
+                                </div>
+                                <div>
+                                    <img src="./designs/Shinobi/icon2.jpg"></img>
+                                </div>
+                                <div>
+                                    <img src="./designs/Shinobi/Iphone-Screen.jpg"></img>
+                                </div>
+                                <div>
+                                    <img src="./designs/Shinobi/blackShinobi.jpg"></img>
+                                </div>
+                                <div>
+                                    <img src="./designs/Shinobi/background2.jpg"></img>
+                                </div>
+                                <div>
+                                    <img src="./Shinobi.jpg"></img>
+                                </div>
                             </div>
                         </div>
-                        {/* <div className="about-glitch-button">
-                        <GlitchButton text="Return to Homepage" color="turquoise" />
-                    </div> */}
-                    </div>
-                    <div className="no-slime">
-                        <Footer page="/" pageName="Home" />
-                    </div>
-                </main>
-         </ObserverWrapper>
-        </>
-    )
-}
+                        </div>
+                            <div className="no-slime">
+                                <Footer page="/" pageName="Home" />
+                            </div>
+                        </main>
+                    </ObserverWrapper>
+                </>
+                )
+};

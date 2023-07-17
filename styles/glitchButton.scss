@@ -1,6 +1,6 @@
   .glitchButton, .glitchButton::after {
     display: flex;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
     font-size: 16px;
     font-family: Coolvetica;
     background: linear-gradient(45deg, transparent 5%, magenta 5%);
@@ -89,10 +89,14 @@
     }
   }
 
-@media (max-width: 750px) {
+@media (max-width: 375px) {
     .glitchButton, .glitchButton::after {
-      width:95%;
-      max-width: 95%;
-      padding: 1rem 3.5rem;
+      transform: scale(0.5);
+  }
+}
+
+@media (max-width: 280px) {
+  .glitchButton, .glitchButton::after {
+    transform: scale(0.5);
   }
 }

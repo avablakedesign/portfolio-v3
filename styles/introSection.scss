@@ -15,6 +15,9 @@
     }
 }
 
+.small-header {
+  display:none;  
+}
 .splash-header-flow {
     height: 25rem;
     display: flex;
@@ -105,6 +108,19 @@
     }
 }
 
+@media (max-width: 415px) {
+    .small-header {
+        display:block;
+        height: 2rem;
+        padding: 1rem;
+        text-align: center;
+        & span {
+            color: white;
+            font-size: 2rem;
+        }
+    }
+}
+
 @media (max-width: 376px) {
     .splash-header {
         display: none;
@@ -153,5 +169,15 @@
     }
     video-wrapper {
 
+    }
+    .small-header {
+        display:block;
+        height: 2rem;
+        padding: 1rem;
+        text-align: center;
+        & span {
+            color: white;
+            font-size: 2rem;
+        }
     }
 }

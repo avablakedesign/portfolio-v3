@@ -21,27 +21,27 @@ export default () => {
                 app.view.height = canvasRef.current?.height
             }
             const asciified = (app: any, filter: any) => {
-                let count = 0;
-                app.ticker.add(() => {
-                    count += 1
-                    if (count < 250) {
-                        app.stage.filters = [];
-                    }
-                    else if (count >= 250 && count < 500) {
-                        app.stage.filters = [filter];
-                        filter.size += 0.25
-                        // filter.size = ((20)/(1+(Math.E ** (-1 * ((0.031 * count)-5)))))
-                    }
-                    else if (count >= 500 && count < 750) {
-                        filter.size -= 0.25
-                        // filter.size = ((20)/(1+(Math.E ** (1 * ((0.031 * count)-5)))))
-                    }
-                    else {
-                        count = 0
-                    }
-                    // console.log(count);
-                    // filter.size = Math.floor(Math.sin(count)*20);
-                });
+                // let count = 0;
+                // app.ticker.add(() => {
+                //     count += 1
+                //     if (count < 250) {
+                //         app.stage.filters = [];
+                //     }
+                //     else if (count >= 250 && count < 500) {
+                //         app.stage.filters = [filter];
+                //         filter.size += 0.25
+                //         // filter.size = ((20)/(1+(Math.E ** (-1 * ((0.031 * count)-5)))))
+                //     }
+                //     else if (count >= 500 && count < 750) {
+                //         filter.size -= 0.25
+                //         // filter.size = ((20)/(1+(Math.E ** (1 * ((0.031 * count)-5)))))
+                //     }
+                //     else {
+                //         count = 0
+                //     }
+                //     // console.log(count);
+                //     // filter.size = Math.floor(Math.sin(count)*20);
+                // });
             };
             const draw = async () => {
                 const koiTexture = PIXI.Texture.from('../koifish.mp4');
@@ -86,7 +86,7 @@ export default () => {
         });
     };
     const renderBohemianFireDesigns = () => {
-        const designsArray = new Array(2).fill(1);
+        const designsArray = new Array(5).fill(1);
         return designsArray.map((design, index) => {
             return (
                 <div className={`designs-app-screen designs-app-screen-bohemianFire designs-app-screen-bohemianFire-${index}`} key={index}>
