@@ -32,7 +32,7 @@ export default function Home() {
                         </div>
                         <div className="about-text">
                             <p> 
-                                <span>Pinterest X Vogue</span> is a high fashion app. A mock up of Pinterest and Vogue, search for fashion trends and view Vogue <span>fashion archives</span>. This is noncommercial and I am not affilated with either corporations.
+                                <span>Pinterest X Vogue</span> is a high fashion app. A mock up of Pinterest and Vogue, search for fashion trends and view Vogue's <span>fashion archives</span>. This is noncommercial and I am not affilated with either corporations.
                             </p>
                         </div>
                     </div>    
